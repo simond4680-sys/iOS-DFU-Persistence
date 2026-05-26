@@ -1,0 +1,11 @@
+From 4b0ea358c19cbb79c7615a5734d60764b68b6b8b Mon Sep 17 00:00:00 2001
+From: User <simond4680-eng@github.com>
+Date: Tue, 26 May 2026 22:37:28 +1000
+Subject: [PATCH] Record Windows sparse checkout configuration
+
+Repository integrity verified with git fsck --full --strict. The checkout uses sparse checkout and skip-worktree entries for paths that cannot be materialized on Windows.
+
+Co-Authored-By: Oz <oz-agent@warp.dev>
+-- 
+2.54.0.windows.1
+
